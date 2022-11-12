@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "cy:open": "npx cypress open",
+    "cy:run:chrome": "npx cypress run -b chrome",
+    "cy:run:firefox": "npx cypress run -b firefox",
+    "report": "start ./cypress/reports/html/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +22,7 @@
   "homepage": "https://github.com/yojoman/JS-cypress#readme",
   "devDependencies": {
     "cypress": "^11.0.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
     "cypress-xpath": "^2.0.1"
   }
 }
