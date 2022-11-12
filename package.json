@@ -1,0 +1,24 @@
+{
+  "name": "js-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yojoman/JS-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yojoman/JS-cypress/issues"
+  },
+  "homepage": "https://github.com/yojoman/JS-cypress#readme",
+  "devDependencies": {
+    "cypress": "^11.0.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
